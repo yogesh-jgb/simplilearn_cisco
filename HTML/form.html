@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration form for shopify website</title>
+</head>
+<body>
+    <form action="post" action="first.html">
+        <div>
+            <label for="full">Full Name</label>
+            <input type="text" name="full" id="full" placeholder="enter the name" required/>
+        </div>
+        <br>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="enter the age" />
+        </div>
+        <br>
+        <div>
+            <label for="contact">Contact Nos</label>
+            <input type="text" name="contact" id="contact" placeholder="enter the Nos" required />
+        </div>
+        <br>
+        <div>
+            <label for="DOB">DOB</label>
+            <input type="date" name="dob" id="dob" placeholder="enter the DOB" required />
+        </div>
+        <br>
+        <div>
+            <label for="password">set password</label>
+            <input type="password" name="pass" id="pass" placeholder="enter the password" required />
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="Gender" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="Gender" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+        <br>
+        <div>
+            <label for="lang">languages you know</label>
+            <input type="checkbox" name="lang" id="eng" value="eng">
+            <label for="eng">English</label>
+            <input type="checkbox" name="lang" id="Hindi" value="Hindi">
+            <label for="Hindi">Hindi</label>
+            <input type="checkbox" name="lang" id="Spanish" value="Spanish">
+            <label for="Spanish">Spanish</label>
+            <input type="checkbox" name="lang" id="French" value="French">
+            <label for="French">French</label>
+        </div>
+        <br>
+        <div>
+            <label for="query">Query</label>
+            <textarea rows="10"  cols="20" id="query" name="query"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="country">country</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="US">US</option>
+                <option value="Sri Lanka">sri Lanka</option>
+                <option value="Japan">Japan</option>
+                <option value="SA">SA</option>
+                <option value="New Zeland">New Zeland</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">your Favorite Food</label>
+            <input type="text" name="food" id="food" list="foods">
+            <datalist id="foods">
+                <option value="North Indian"></option>
+                <option value="south Indian"></option>
+                <option value="Chinese"></option>
+                <option value="Italian"></option>
+                <option value="Continental"></option>
+            </datalist>
+        </div>
+        <br>
+        <div>
+            <label for="">Upload</label>
+            <input type="file" id="resume"/>
+        </div>
+        <br>
+        
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </div>
+
+        <div>
+            <label for="progress"></label>
+            <progress id="file" value="20%"  max="100">10%</progress>
+        </div>
+    </form>
+</body>
+</html>

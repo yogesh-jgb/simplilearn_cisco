@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+this is the content for the merge conflict demo
+content to append
+=======
+adding more change 
+>>>>>>> copybranch
